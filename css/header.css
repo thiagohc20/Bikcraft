@@ -1,0 +1,53 @@
+header {
+    background-color: black;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.logo {
+    max-width: 136px;
+    max-height: 32px;
+}
+
+header nav ul {
+    display: flex;
+    gap:20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    line-height: 32px;
+}
+
+.nav-buttons ul li {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width:800px) {
+
+    header nav ul {
+        padding-top: 20px;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
+    header nav ul li:hover {
+        border-radius: 5px;
+        background-color: #2e2e2e;
+    }
+}
+
+@media (max-width:600px) {
+    
+    header section {
+        flex-direction: column;
+        align-items: flex-start;      
+    }
+
+
+}
