@@ -10,6 +10,10 @@
 @import url(./footer.css);
 
 
+/* ------ terms ------ */
+@import url(./terms/terms.css);
+@import url(./terms/terms-list.css);
+
 
 /* font-family */
 @import url(./tipografia/fonts.css);
