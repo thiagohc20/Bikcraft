@@ -71,6 +71,7 @@
     }
 
     .bikes ul{
+        gap: 10px;
         padding: 0 4%;
     }
 

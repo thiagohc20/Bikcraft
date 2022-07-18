@@ -7,7 +7,7 @@
     width: auto;
     border-radius: 5px;
     padding: 16px 32px;
-    background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+    background: linear-gradient(#ffbf00, #f2a50c);
     font-family: "Poppins";
     font-size: 1rem;
     font-weight: 600;
@@ -15,6 +15,10 @@
     border: none;
     color: rgba(51, 34, 0, 1);
     text-transform: uppercase;
+  }
+
+  .b-yellow:hover {
+    background: linear-gradient(#d5a000, #cd8c0b);
   }
   
   @media (max-width: 600px) {
@@ -44,6 +48,9 @@
     text-transform: uppercase;
   }
   
+  .b-gray:hover {
+    background: rgb(52, 52, 52);
+  }
   
   @media (max-width: 600px) {
     .b-gray {
