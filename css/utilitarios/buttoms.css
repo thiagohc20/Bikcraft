@@ -1,0 +1,55 @@
+/* b-yellow */
+
+/* Estiliza os botoes em amalero */
+
+.b-yellow {
+    height: 56px;
+    width: auto;
+    border-radius: 5px;
+    padding: 16px 32px;
+    background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    color: rgba(51, 34, 0, 1);
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 600px) {
+    .b-yellow {
+      width: auto;
+      height: 3.5rem;
+      padding: 12px 16px;
+      font-size: 1rem;
+    }
+  }
+
+
+/* ------ buttom-gray ------- */
+
+  .b-gray {
+    height: 56px;
+    width: 217px;
+    border-radius: 5px;
+    padding: 16px 32px;
+    background: rgba(46, 46, 46, 1);
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    color: rgba(204, 204, 204, 1);
+    text-transform: uppercase;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .b-gray {
+      width: 9rem;
+      height: 3.5rem;
+      padding: 12px 16px;
+      font-size: 1rem;
+    }
+  }

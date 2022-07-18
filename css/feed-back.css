@@ -1,0 +1,66 @@
+.feed-back {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  margin: 0px auto;
+  background-color: rgba(255, 187, 0, 1);
+  place-items: center flex-end;
+}
+
+.feed-back img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feed-back article {
+    padding: 80px 40px;
+}
+
+.feed-back p {
+  font-family: 'Merriweather';
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 48px;
+  color: #332200;
+  text-align: left;
+}
+
+.feed-back h2 {
+    margin-top: 20px;
+    color: rgba(102, 68, 0, 1);
+}
+
+@media (max-width:800px) {
+    .feed-back {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .feed-back img {
+        max-height: 200px;
+        width: 100%;
+        object-position: top;
+        display: block;
+    }
+
+    .feed-back article {
+        text-align: center;
+        padding: 40px 20px;
+    }
+    
+    .feed-back p{
+        max-width: 29.875rem;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 24px;
+    }
+
+    .feed-back h2{
+        text-align: center;
+    }
+    
+    
+
+    
+}

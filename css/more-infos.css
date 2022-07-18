@@ -1,0 +1,128 @@
+.tools-img {
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.more-infos {
+  background-color: black;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 62px;
+}
+
+.description div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 0px;
+}
+
+.description .rb-5 {
+  text-transform: uppercase;
+}
+
+.choose {
+  color: #ffbb00;
+  max-width: 16.35rem;
+  border-bottom: #ffbb00 4px solid;
+  padding-bottom: 4px;
+  margin-bottom:4rem;
+}
+
+.choose:hover {
+  color: #fff;
+  border-bottom: #fff 4px solid;
+}
+
+.description section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.description section h2 {
+  padding: 8px 0px;
+  position: relative;
+}
+
+
+.bike-icon::before {
+    content: "";
+    width: 100%;
+    height: 32px;
+    max-width: 33px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    background-image: url(../assets/icones/eletrica.svg);
+    background-repeat: no-repeat;
+}
+
+.tracker::before {
+    content: "";
+    height: 32px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    background-image: url(../assets/icones/rastreador.svg);
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1200px) {
+  .description {
+    padding: 0 5%;
+  }
+
+  .description-title{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+    .description section .pop-24px-5 {
+      font-size: 1rem;
+    }
+  }
+
+@media (max-width: 800px) {
+  .description {
+    grid-template-columns: 1fr;
+  }
+
+  .description div h2{
+    max-width: 25rem;
+    font-size: 3rem;
+  }
+
+  .choose {
+      margin-bottom: 2.5rem;
+  }
+
+  .more-infos img {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+    .description div h2{
+        font-size: 2rem;
+        max-width: 18.75rem;
+    }
+
+    .description section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .description section h2{
+        font-size: 1.2rem;
+        color: #fff;
+        font-weight: 500;
+    }
+}

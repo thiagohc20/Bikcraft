@@ -1,11 +1,24 @@
 @import url(./global.css);
-@import url(./utilitarios.css);
+@import url(./utilitarios/utilitarios.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./bikes-sections.css);
-@import url(./description.css);
+@import url(./more-infos.css);
+@import url(./partner.css);
+@import url(./feed-back.css);
+@import url(./security.css);
+@import url(./footer.css);
+
 
 
 /* font-family */
-
+@import url(./tipografia/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+
+
+/* buttoms */
+
+@import url(./utilitarios/buttoms.css);
+

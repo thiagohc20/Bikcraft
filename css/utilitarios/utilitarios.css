@@ -1,0 +1,36 @@
+
+/* align-container */
+
+
+.align-container {
+  margin: 0px auto;
+  max-width: 1168px;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .align-container {
+    padding-left: 0px;
+  }
+}
+
+
+/* ------ Ponto final estilizado ------ */
+
+.dot {
+  color: rgba(255, 187, 0, 1);
+}
+
+
+/* ------ Border-left ----- */
+
+.border-left {
+  border-left: solid 2px #ededed;
+}
+
+
+/* ------ Border-top ------ */
+
+.border-top {
+  border-top: solid 2px #ededed;
+}

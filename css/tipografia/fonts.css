@@ -1,0 +1,100 @@
+/* Font-family */
+
+/* ------ Roboto ------ */
+
+.rb-5 {
+  font: 500 1.5rem "Roboto", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
+.rb-16px {
+  font: 400 1rem/24px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
+.rb-18px {
+  font: 400 1.125rem "Roboto", sans-serif;
+  color: rgba(156, 156, 156, 1);
+}
+
+/* formata o estilo da font para 24px */
+.rb-24px {
+  font: 400 1.5rem/36px "Roboto", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
+
+.rb-32px {
+  font: 500 2rem/32px "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.015em;
+}
+
+/* Poppins-Family */
+
+.pop-6 {
+  font: 600 "Poppins", sans-serif;
+}
+
+.pop-4 {
+  font: 400 "Poppins", sans-serif;
+}
+
+/* ------ Poppins 12px 600 weigth ------ */
+
+.pop-12px {
+  font: 400 0.75rem/24px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+/* ------ Poppins 18px 500 wight ------- */
+.pop-18px {
+  font: 500 1.2rem "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
+/* ------ Poppins 24px 500 weight ------ */
+
+.pop-24px-5 {
+  font: 500 1.5rem/ "Poppins", sans-serif;
+}
+
+/* ------ Poppins 24px 600 weight ------ */
+.pop-24px-6 {
+  font: 600 1.5rem/ "Poppins", sans-serif;
+}
+/* ------Poppins 32px 600 weight ------ */
+
+.pop-32px {
+  font: 600 2rem/40px "Poppins", sans-serif;
+}
+
+/* ------ Poppins 32px 600 weigth ----- */
+.pop-36px {
+  font: 600 2rem/48px "Poppins", sans-serif;
+}
+
+/* ------Poppins 64px 600 weight ------ */
+
+.pop-64px {
+  font: 600 3.93rem/72px "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .rb-24px {
+    font: 400 1.2rem/20px "Roboto", sans-serif;
+    color: rgba(178, 178, 178, 1);
+  }
+
+  .pop-64px {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+}
+
+
+@media (max-width:800px) {
+
+  .pop-36px {
+    font-size: 1.5rem;
+  }
+}

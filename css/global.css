@@ -3,14 +3,20 @@
   padding: 0px;
   box-sizing: border-box;
 }
+ul,
+h2,
+p {
+  padding: 0px;
+  margin: 0px;
+}
 
 li {
   list-style: none;
 }
 
 a {
+  color: beige;
   text-decoration: none;
-  color: #fff;
 }
 
 body {
