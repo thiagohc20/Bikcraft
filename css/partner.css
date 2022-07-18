@@ -1,5 +1,5 @@
 .partner {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 100px 20px;
   display: grid;
@@ -9,10 +9,6 @@
 .partner img {
   max-width: 100%;
   display: block;
-}
-
-.partner h2 {
-    padding-left: 35px;
 }
 
 .partner ul {
@@ -36,5 +32,18 @@
   .partner ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .partner ul li:nth-child(1){
+    border-bottom: solid 2px #ededed;
+  }
+  .partner ul li:nth-child(2){
+    border-bottom: solid 2px #ededed;
+  }
+  .partner ul li:nth-child(3){
+    border-left: none;
+  }
+  .partner ul li:nth-child(7){
+    border-left: none;
   }
 }

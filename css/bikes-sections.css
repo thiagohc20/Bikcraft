@@ -3,8 +3,8 @@
 }
 
 .bikes-img {
-    max-width:460px;
-    width: 100%;
+    max-width: 370px;
+    border-radius: 5px;
 }
 
 .bikes h2 {
@@ -13,12 +13,14 @@
 }
 
 .bikes ul {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    display:flex;
     gap: 40px;
-    max-width: 1250px;
+    max-width: 1300px;
     margin: 0px auto;
+    overflow:auto;
+    padding-bottom: 20px !important;
 }
 
 .bikes h3 {
@@ -35,10 +37,11 @@
     top: -5px;
     background-color: #FFBB00;
     position: relative;
+    transition: 0.3s;
 }
 
-.bikes h3::before:hover {
-    width: 100px;
+.bikes h3:hover:before {
+    width: 30px;
 }
 
 

@@ -60,7 +60,7 @@
 
 /* ------ Poppins 24px 600 weight ------ */
 .pop-24px-6 {
-  font: 600 1.5rem/ "Poppins", sans-serif;
+  font: 600 1.5rem "Poppins", sans-serif;
 }
 /* ------Poppins 32px 600 weight ------ */
 
@@ -81,7 +81,7 @@
 
 @media (max-width: 1200px) {
   .rb-24px {
-    font: 400 1.2rem/20px "Roboto", sans-serif;
+    font: 400 1.2rem/28px "Roboto", sans-serif;
     color: rgba(178, 178, 178, 1);
   }
 

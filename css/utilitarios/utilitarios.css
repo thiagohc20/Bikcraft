@@ -34,3 +34,10 @@
 .border-top {
   border-top: solid 2px #ededed;
 }
+
+
+/* ------ border-right ------ */
+
+.border-right {
+  border-right: solid 2px #ededed;
+}
