@@ -1,3 +1,5 @@
+/* index */
+
 @import url(./global.css);
 @import url(./utilitarios/utilitarios.css);
 @import url(./header.css);
@@ -10,11 +12,6 @@
 @import url(./footer.css);
 
 
-/* ------ terms ------ */
-@import url(./terms/terms.css);
-@import url(./terms/terms-list.css);
-
-
 /* font-family */
 @import url(./tipografia/fonts.css);
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
@@ -25,4 +22,15 @@
 /* buttoms */
 
 @import url(./utilitarios/buttoms.css);
+
+
+
+/* ------ terms ------ */
+@import url(./utilitarios/head-content.css);
+@import url(./terms/terms-list.css);
+
+
+/* ------ bikes-page ------ */
+@import url(./bikes-page.css);
+
 

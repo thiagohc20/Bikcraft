@@ -81,6 +81,7 @@
 
 .pop-64px {
   font: 600 3.93rem/72px "Poppins", sans-serif;
+  color: white;
 }
 
 @media (max-width: 1200px) {

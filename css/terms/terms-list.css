@@ -1,5 +1,6 @@
 .terms-list {
     background-color: white;
+    padding:  0 4%;
 }
 
 .terms-list section {
@@ -12,6 +13,10 @@
     width: 100%;
     display: grid;
     gap: 20px;
+}
+
+.terms-list article h2 {
+    color: #000;
 }
 
 .terms-list article ul {
