@@ -3,11 +3,11 @@
 @import url(./global.css);
 @import url(./utilitarios/utilitarios.css);
 @import url(./header.css);
-@import url(./main.css);
-@import url(./bikes-sections.css);
-@import url(./more-infos.css);
-@import url(./partner.css);
-@import url(./feed-back.css);
+@import url(./index/main.css);
+@import url(./index/bikes-sections.css);
+@import url(./index/more-infos.css);
+@import url(./index/partner.css);
+@import url(./index/feed-back.css);
 @import url(./security.css);
 @import url(./footer.css);
 
