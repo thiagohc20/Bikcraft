@@ -44,6 +44,11 @@ footer {
   color: rgba(178, 178, 178, 1);
 }
 
+.contact-list a:hover,
+.info-list ul a:hover {
+  color: white;
+}
+
 .social-midias {
   display: flex;
   gap: 32px;
