@@ -1,0 +1,16 @@
+.terms {
+    background-color: #111;
+}
+.terms div {
+    padding: 60px 0px;
+}
+.terms h2 {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+@media (max-width:1200px) {
+    .terms div {
+        padding: 60px 4%;
+    }
+}
