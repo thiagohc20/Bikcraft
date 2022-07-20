@@ -6,7 +6,9 @@
   gap: 60px;
 }
 
-
+.partner h2 {
+  color: black;
+}
 
 .partner img {
   max-width: 100%;
