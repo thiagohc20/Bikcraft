@@ -23,7 +23,9 @@
 
 @import url(./utilitarios/buttoms.css);
 
-
+/* ------ seguros ------ */
+@import url(./seguro/seguros.css);
+@import url(./seguro/faq.css);
 
 /* ------ terms ------ */
 @import url(./utilitarios/head-content.css);

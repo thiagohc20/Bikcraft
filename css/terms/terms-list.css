@@ -1,6 +1,5 @@
 .terms-list {
     background-color: white;
-    padding:  0 4%;
 }
 
 .terms-list section {
@@ -29,9 +28,15 @@
     max-width: 760px;
 }
 
+@media (max-width:1200px) {
+    .terms-list section {
+        padding: 120px 4%;
+    }
+}
+
 @media (max-width:800px) {
     .terms-list section {
-        padding: 80px 0px;
+        padding: 80px auto;
     }
 
     .terms-list article {

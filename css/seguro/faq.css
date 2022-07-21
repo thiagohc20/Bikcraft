@@ -1,0 +1,39 @@
+.faq-bg {
+    background-color: rgb(255, 255, 255);
+}
+
+.faq-bg div h1 {
+    color: black !important;
+}
+
+.faq {
+    display: grid;
+    gap: 88px;
+}
+
+.faq-list h2 {
+    padding-bottom: 16px;
+    color: rgba(17, 17, 17, 1);
+}
+.faq-list p{
+    padding-left: 20px;
+    max-width: 832px;
+    color: rgba(64, 64, 64, 1);
+}
+
+.faq-list ul {
+    display: grid;
+    gap: 10px;
+}
+
+.faq-list ul li h2::before {
+    content: "";
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
+    margin-right: 8px;
+    width: 12px;
+    height: 8px;
+    background-color: rgba(255, 187, 0, 1);
+}
+

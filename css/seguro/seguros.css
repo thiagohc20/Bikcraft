@@ -1,0 +1,39 @@
+.our-vantages-bg {
+    background-color: black;
+    color: white;
+}
+
+.our-vantages{
+    color: white;
+    margin: 0px auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.our-vantages article h2{
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width:1024px) {
+
+    .our-vantages {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vantages-h2 {
+        padding-bottom: 0px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .our-vantages {
+        grid-template-columns: 1fr;
+    }
+
+    .vantages-h2 {
+        padding: initial;
+    }
+}
