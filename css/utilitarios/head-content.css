@@ -1,9 +1,11 @@
 .head {
     background-color: #111;
 }
+
 .head div {
     padding: 60px 0px;
 }
+
 .head span {
     padding-bottom: 8px;
     text-transform: uppercase;
@@ -11,6 +13,6 @@
 
 @media (max-width:1200px) {
     .head div {
-        padding: 60px 4%;
+        padding: 30px 4%;
     }
 }

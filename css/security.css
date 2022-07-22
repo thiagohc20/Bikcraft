@@ -6,13 +6,10 @@
 }
 
 .security > h2 {
-    margin: 0px auto;
+  margin: 0px auto;
   padding-bottom: 50px !important;
 }
 
-.security-box {
-  background-color: black;
-}
 
 .security-plans {
   display: grid;
@@ -71,6 +68,10 @@
 }
 
 @media (max-width: 800px) {
+  .security {
+    padding-top: 20px;
+  }
+
   .security-plans {
     grid-template-columns: 1fr;
     align-items: center;
