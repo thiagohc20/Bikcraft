@@ -8,7 +8,6 @@
     padding: 80px 2%;
 }
 
-
 .second-section h2{
     color: rgb(255, 255, 255) !important;
 }
@@ -26,13 +25,11 @@
     box-shadow: inset 200px 0px rgb(255, 255, 255);
 }
 
-
 .bikes-page-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
-
 
 .bikes-page-section article {
     display: grid;
