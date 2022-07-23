@@ -1,0 +1,91 @@
+.bikes-intern-choose {
+    padding: 7.5rem 0px;
+}
+
+.bikes-intern-choose-img {
+    max-width: 560px;
+    border-radius: 5px;
+}
+
+.bikes-intern-choose h2 {
+    color: #000;
+    padding-bottom: 2.5rem;
+}
+
+.bikes-intern-choose ul {
+    padding-left: 2%;
+    padding-right: 2%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+.bikes-intern-choose h3 {
+    padding-top: 16px;
+    position: relative;
+}
+
+.bikes-intern-choose h3::before{
+    content: "";
+    display: inline-block;
+    left: 0px;
+    width:12px;
+    height: 8px;
+    top: -5px;
+    background-color: #FFBB00;
+    position: relative;
+    transition: 0.3s;
+}
+
+.bikes-intern-choose h3:hover:before {
+    width: 30px;
+}
+
+
+.bikes-intern-choose p {
+    color: rgba(89, 89, 89, 1);
+    font-weight: 500;
+    padding-top: 8px;
+}
+@media (max-width:1200px) {
+    .bikes-intern-choose {
+        padding: 4rem 0px;
+    }
+
+    .bikes-intern-choose h2{
+        padding: 0 4%;
+        padding-bottom: 20px;
+    }
+
+    .bikes-intern-choose ul{
+        padding: 0 1%;
+    }
+}
+
+@media (max-width:800px) {
+    .bikes-intern-choose {
+        padding: 2rem 0px;
+    }
+
+    .bikes-intern-choose ul{
+        gap: 20px;
+        padding: 0 4%;
+    }
+
+    .bikes-intern-choose h2 {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width:600px) {
+    
+    .bikes-intern-choose {
+        padding: 2rem 0px;
+    }
+
+}

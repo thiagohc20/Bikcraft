@@ -1,0 +1,24 @@
+.bikes-intern-infos span{
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 12px;
+    display: block;
+}
+.bikes-intern-infos div{
+    background-color: black;
+    border-radius: 5px;
+    padding: 32px;
+    gap: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bikes-intern-infos article h2 {
+    padding-bottom: 8px;
+}
+
+@media (max-width:375px) {
+    .bikes-intern-infos div {
+        grid-template-columns: 1fr;
+    }
+}

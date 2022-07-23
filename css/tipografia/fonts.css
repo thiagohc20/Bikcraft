@@ -7,8 +7,18 @@
   color: rgba(178, 178, 178, 1);
 }
 
+.rb-14px {
+  font: 400 1rem/20px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
 .rb-16px {
   font: 400 1rem/24px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
+.rb-16px-5 {
+  font: 500 1rem/24px "Poppins", sans-serif;
   color: rgba(178, 178, 178, 1);
 }
 
@@ -50,12 +60,21 @@
   font: 400 0.75rem/24px "Poppins", sans-serif;
   color: rgba(178, 178, 178, 1);
 }
+
+.pop-12px-5 {
+  font: 500 0.75rem/16px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
 /* ------ Poppins 18px 500 wight ------- */
 .pop-18px {
   font: 500 1.2rem "Poppins", sans-serif;
   color: rgba(178, 178, 178, 1);
 }
 
+.pop-18px-5 {
+  font: 500 1.12rem "Poppins", sans-serif;
+  color: white;
+}
 /* ------ Poppins 18px 600 weight ------ */
 .pop-18px-6 {
   font: 600 1.2rem "Poppins", sans-serif;

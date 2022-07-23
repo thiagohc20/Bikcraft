@@ -1,0 +1,23 @@
+.bikes-intern-buy > p {
+    padding-bottom: 32px;
+}
+
+.bikes-intern-buy article{
+    display: flex;
+    column-gap: 12px;
+}
+
+.bikes-intern-buy article div span {
+    display: grid;
+    padding: 4px;
+    border-radius: 5px;
+    grid-template-columns: 10% 90%;
+    place-items: start;
+    gap: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+}
+
+@media (max-with:800px) {
+    
+}

@@ -17,6 +17,10 @@
     text-transform: uppercase;
   }
 
+  .b-yellow a {
+    color: rgba(51, 34, 0, 1);
+  }
+  
   .b-yellow:hover {
     background: linear-gradient(#d5a000, #cd8c0b);
   }

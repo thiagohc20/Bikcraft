@@ -1,0 +1,27 @@
+.datasheet span{
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 12px;
+    display: block;
+}
+
+.datasheet div{
+    background-color: black;
+    border-radius: 5px;
+    padding: 32px;
+}
+
+.datasheet ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(17, 17, 17, 1);
+}
+
+.datasheet ul li h3 {
+    padding: 6px;
+}
+
+.datasheet ul li:nth-child(6) {
+    border-bottom: none;
+}

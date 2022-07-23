@@ -18,7 +18,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
 
-
 /* buttoms */
 
 @import url(./utilitarios/buttoms.css);
@@ -35,4 +34,10 @@
 /* ------ bikes-page ------ */
 @import url(./bikes-page.css);
 
-
+/* ------ bicicleta-interna ------ */
+@import url(./bicicleta-interna/bicicleta-interna.css);
+@import url(./bicicleta-interna/bike-intern-buy.css);
+@import url(./bicicleta-interna/bike-intern-infos.css);
+@import url(./bicicleta-interna/datasheet.css);
+@import url(./bicicleta-interna/bikes-intern-choose.css);
+@import url(./bicicleta-interna/now-more-infos-security.css);
