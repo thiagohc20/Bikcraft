@@ -82,9 +82,20 @@
 .bikes-page-section ul li p {
     font-weight: 600;
 }
-.bikes-page-section button {
-    display: flex;
-    gap: 8px;
+
+.bikes-page-section button p::after{
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/icones/seta.svg);
+}
+
+.bikes-page-section button p:hover::after {
+    transform: translateX(4px);
+    transition: 0.3s;
 }
 
 @media (max-width:850px) {
