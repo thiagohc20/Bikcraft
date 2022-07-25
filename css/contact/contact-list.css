@@ -1,0 +1,41 @@
+.contact-form > article{
+    background-color: black;
+    padding: 60px;
+}
+
+.contact-form h2 {
+    color: white;
+    padding-bottom: 60px;
+}
+.contact-form > article div {
+    display: flex;
+    align-items: start;
+    gap:8px;
+}
+
+.contact-form > article div:nth-child(5) {
+    gap: 32px;
+}
+
+.contact-form > article div ul {
+    padding-bottom: 32px;
+}
+
+.contact-social-midia {
+    padding-top: 60px;
+}
+
+@media (max-width:800px) {
+    .contact-form > article {
+        padding: 20px;
+    }
+
+    .contact-form h2 {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .contact-social-midia {
+        padding-top: 20px;
+    }
+}

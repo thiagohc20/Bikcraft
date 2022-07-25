@@ -18,7 +18,7 @@
 }
 
 .rb-16px-5 {
-  font: 500 1rem/24px "Poppins", sans-serif;
+  font: 600 1rem/24px "Poppins", sans-serif;
   color: rgba(178, 178, 178, 1);
 }
 
@@ -65,6 +65,19 @@
   font: 500 0.75rem/16px "Poppins", sans-serif;
   color: rgba(178, 178, 178, 1);
 }
+
+.pop-14px-6 {
+  font: 600 0.875rem/20px "Poppins", sans-serif;
+}
+
+.pop-16px-5 {
+  font: 500 1rem "Poppins", sans-serif;
+}
+
+.pop-16px-6 {
+  font: 600 1rem "Poppins", sans-serif;
+}
+
 /* ------ Poppins 18px 500 wight ------- */
 .pop-18px {
   font: 500 1.2rem "Poppins", sans-serif;
@@ -97,6 +110,11 @@
   font: 600 2rem/40px "Poppins", sans-serif;
 }
 
+@media (max-width:1000px) {
+  .pop-32px {
+    font-size: 24px;
+  }
+}
 /* ------ Poppins 32px 600 weigth ----- */
 .pop-36px {
   font: 600 2rem/48px "Poppins", sans-serif;
