@@ -1,0 +1,9 @@
+.budget {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.budget-choose {
+    background-color: black;
+    color: white;
+}

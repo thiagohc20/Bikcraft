@@ -3,7 +3,6 @@
 }
 .local-title {
     color: black;
-    padding: 60px 0px;
 }
 
 .local img{
@@ -13,6 +12,8 @@
 
 .local-list {
     padding: 32px;
+    display: grid;
+    gap: 32px;
 }
 
 .store {
@@ -24,8 +25,9 @@
 .store article{
     background-color: rgb(233, 233, 233);
     display: grid;
-    gap:32px
+    
 }
+
 .store article h2::before {
     content: "";
     position: relative;
@@ -44,6 +46,10 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.store p {
+    padding-bottom: 20px;
+}
+
 .store p::before {
     content: "";
     position: relative;
@@ -55,6 +61,15 @@
     background-repeat: no-repeat;
     background-image: url(/assets/icones/horario.svg);
 }
+@media (max-width:1000px) {
+    .store {
+        grid-template-columns: 1fr;
+    }
+
+    .local img{
+        max-width: 100%;
+    }
+}
 
 @media (max-width:800px) {
     .local-bg {
@@ -64,12 +79,11 @@
     .local-title {
         padding: 30px 0px;
     }
-    
-    .local img{
-        max-width: 100%;
-    }
+        
+}
 
-    .store {
+@media (max-width:480px) {
+    .store ul {
         grid-template-columns: 1fr;
     }
 }
