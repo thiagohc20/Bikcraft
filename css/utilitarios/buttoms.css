@@ -64,3 +64,16 @@
       font-size: 1rem;
     }
   }
+
+
+
+/* radio-buttom */
+
+.radio-gray {
+  background-color: rgba(46, 46, 46, 1);
+  padding: 18px;
+  border-radius: 5px;
+  display: flex;
+  gap:12px;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.budget-choose {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(204, 204, 204, 1) !important;
+}
+
+.budget-choose p {
+    text-transform: uppercase;
+}
+
+.budget-choose p::before {
+    content: "";
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+    margin-right: 8px;
+    width: 4px;
+    height: 8px;
+    background-color: rgba(255, 187, 0, 1);
+}
+
+.radio {
+    background-color: gray
+}
+
+.budget-choose section{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media (max-width:800px) {
+    .budget-choose {
+        padding: 40px 4%;
+    }
+}

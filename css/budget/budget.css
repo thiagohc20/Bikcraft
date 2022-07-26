@@ -1,9 +1,26 @@
-.budget {
+.budget-bg {
+    padding: 0 4%;
+    background-color: white;
+    box-shadow: inset 0px 300px rgba(17, 17, 17, 1);
+}
+.budget{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom:120px;
 }
 
 .budget-choose {
     background-color: black;
     color: white;
+}
+
+@media (max-width:800px) {
+    .budget-bg {
+        padding: 0px;
+    }
+    
+    .budget {
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+    }
 }

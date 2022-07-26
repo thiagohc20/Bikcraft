@@ -66,12 +66,17 @@
   color: rgba(178, 178, 178, 1);
 }
 
+.pop-12px-6 {
+  font: 600 0.75rem/16px "Poppins", sans-serif;
+  color: rgba(178, 178, 178, 1);
+}
+
 .pop-14px-6 {
   font: 600 0.875rem/20px "Poppins", sans-serif;
 }
 
 .pop-16px-5 {
-  font: 500 1rem "Poppins", sans-serif;
+  font: 600 1rem "Poppins", sans-serif;
 }
 
 .pop-16px-6 {
