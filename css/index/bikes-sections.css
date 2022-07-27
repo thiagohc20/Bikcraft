@@ -3,7 +3,7 @@
 }
 
 .bikes-img {
-    max-width: 370px;
+    max-width: 360px;
     border-radius: 5px;
 }
 
@@ -13,11 +13,8 @@
 }
 
 .bikes ul {
-    padding-left: 2%;
-    padding-right: 2%;
     display:flex;
     gap: 40px;
-    max-width: 1300px;
     margin: 0px auto;
     overflow:auto;
     padding-bottom: 20px !important;
@@ -26,6 +23,7 @@
 .bikes h3 {
     padding-top: 16px;
     position: relative;
+    color: #000;
 }
 
 .bikes h3::before{
@@ -56,7 +54,6 @@
     }
 
     .bikes h2{
-        padding: 0 4%;
         padding-bottom: 20px;
     }
 
@@ -72,20 +69,15 @@
 
     .bikes ul{
         gap: 10px;
-        padding: 0 4%;
     }
 
     .bikes h2 {
         padding-bottom: 20px;
     }
-
-
 }
 
 @media (max-width:600px) {
-    
     .bikes {
         padding: 2rem 0px;
     }
-
 }

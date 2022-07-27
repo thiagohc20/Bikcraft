@@ -1,6 +1,5 @@
 .know-more-infos-security-bg {
     background-color: #111;
-    padding: 0 4%;
     box-shadow: inset 0px 100px white;
 }
 
@@ -39,7 +38,6 @@
 @media (max-width:600px) {
     .know-more-infos-security-bg {
         background-color: #111;
-        padding: 0 4%;
         box-shadow: inset 0px -100px black;
     }
 

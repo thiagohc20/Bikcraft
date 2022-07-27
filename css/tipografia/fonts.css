@@ -99,6 +99,11 @@
   color: rgba(178, 178, 178, 1);
 }
 
+/* ------ Poppins 20px 500 weight ------ */
+.pop-20px-5 {
+  font: 500 1.125rem/32px 'Poppins', sans-serif;
+}
+
 /* ------ Poppins 24px 500 weight ------ */
 
 .pop-24px-5 {

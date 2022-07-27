@@ -1,7 +1,8 @@
 .local-bg {
-    padding: 0 4% 120px 4%;
+    padding-bottom: 120px;
 }
 .local-title {
+    padding: 90px 0px;
     color: black;
 }
 

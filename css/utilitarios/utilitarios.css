@@ -7,19 +7,17 @@
   max-width: 1168px;
 }
 
-@media (max-width: 800px) {
+@media (max-width:1200px) {
   .align-container {
-    padding-left: 0px;
+    padding: 0 4%;
   }
 }
-
 
 /* ------ Ponto final estilizado ------ */
 
 .dot {
   color: rgba(255, 187, 0, 1);
 }
-
 
 /* ------ Border-left ----- */
 

@@ -17,14 +17,13 @@
   align-items: center;
   gap: 40px;
   padding-bottom: 60px;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 .security-plans > section {
   padding: 40px;
   background-color: black;
 }
+
 .silver {
   padding: 45px;
 }
@@ -58,13 +57,6 @@
 
 .gold > h2 {
   color: rgba(255, 187, 0, 1);
-}
-
-@media (max-width: 1200px) {
-
-  .security > h2 {
-    padding: 0 4%;
-  }
 }
 
 @media (max-width: 800px) {

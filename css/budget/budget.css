@@ -1,11 +1,10 @@
 .budget-bg {
-    padding: 0 4%;
     background-color: white;
     box-shadow: inset 0px 300px rgba(17, 17, 17, 1);
 }
 .budget{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     padding-bottom:120px;
 }
 

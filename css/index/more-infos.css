@@ -28,16 +28,21 @@
 }
 
 .choose {
-  color: #ffbb00;
+  text-transform: uppercase;
   max-width: 16.35rem;
   border-bottom: #ffbb00 4px solid;
   padding-bottom: 10px;
   margin-bottom:3rem;
 }
+.choose a {
+  color: #ffbb00;
+}
 
-.choose:hover {
-  color: #fff;
-  border-bottom: #fff 4px solid;
+.choose a:hover {
+  color: white;
+}
+.choose:hover{
+  border-bottom: 4px solid white;
 }
 
 .description section {
@@ -82,10 +87,6 @@
 
 
 @media (max-width: 1200px) {
-  .description {
-    padding: 0 5%;
-  }
-
   .description-title{
     font-size: 3rem;
   }

@@ -2,6 +2,9 @@
     padding: 7.5rem 0px;
 }
 
+.bikes-intern-choose a {
+    color: #000;
+}
 .bikes-intern-choose-img {
     max-width: 560px;
     border-radius: 5px;
@@ -13,13 +16,9 @@
 }
 
 .bikes-intern-choose ul {
-    padding-left: 2%;
-    padding-right: 2%;
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    max-width: 1200px;
-    margin: 0px auto;
     overflow: scroll;
     padding-bottom: 20px;
 }
@@ -57,13 +56,9 @@
     }
 
     .bikes-intern-choose h2{
-        padding: 0 4%;
         padding-bottom: 20px;
     }
 
-    .bikes-intern-choose ul{
-        padding: 0 1%;
-    }
 }
 
 @media (max-width:800px) {
@@ -73,7 +68,6 @@
 
     .bikes-intern-choose ul{
         gap: 20px;
-        padding: 0 4%;
     }
 
     .bikes-intern-choose h2 {

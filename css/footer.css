@@ -70,13 +70,6 @@ footer {
   padding-bottom: 70px;
 }
 
-@media (max-width: 1200px) {
-  .footer-infos {
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-}
-
 @media (max-width: 800px) {
   .footer-infos {
     grid-template-columns: 1fr 1fr;
