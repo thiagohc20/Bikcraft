@@ -34,89 +34,172 @@
 
 <main class="budget-bg">
   <div class="budget align-container">
-    <section class="budget-choose pop-16px-5">
-      <p class="pop-12px-6">bikcraft ou seguro?</p>
-      <section>
-        <div class="radio-gray">
-          <input type="radio" name="bik-seg" id="bikcraft" class="radio"/>
-          <label for="bikcraft">Bikcraft</label>
-        </div>
-        <div class="radio-gray">
-          <input type="radio" name="bik-seg" id="seguro" />
-          <label for="seguro">Seguro</label>
-        </div>
-      </section>
-      <p class="pop-12px-6">escolha a sua:</p>
-      <div class="radio-gray">
-        <input type="radio" name="bikes" id="nimbus" />
-        <label for="nimbus">Nimbus Stark</label>
-      </div>
-      <div class="radio-gray">
-        <input type="radio" name="bikes" id="magic" />
-        <label for="magic">Magic Might</label>
-      </div>
-      <div class="radio-gray">
-        <input type="radio" name="bikes" id="nebula" />
-        <label for="nebula">Nebula Cosmic</label>
-      </div>
-    </section>
+    <form action="" class="budget-form">
+      <div class="budget-choose">
+        <h2 class="pop-12px-6">bikcraft ou seguro?</h2>
 
-    <section class="budget-form">
-      <section class="form-dados">
-        <form action="" class="pop-16px-5">
-          <p class="pop-12px-6">Dados Pessoais</p>
-          <div>
-            <label for="">Nome</label>
-            <input type="text" name="" id=""/>
+          <input type="radio" name="bik-seg" id="bikcraft">
+          <label for="bikcraft" class="pop-16px-5">Bikcraft</label>
+        
+          <input type="radio" name="bik-seg" id="seguro">
+          <label for="seguro" class="pop-16px-5">Seguro</label>
+          
+        <div class="budget-bikes">
+          <h2 class="pop-12px-6">escolha a sua:</h2>
+
+          <input type="radio" name="bikes" id="nimbus">
+          <label for="nimbus" class="pop-16px-5">
+            <p>Nimbus Stark</p>
+            <p>R$ 4999</p>
+          </label>
+
+          <div class="bikes-nimbus budget-flex">
+            <ul class="pop-12px-6">
+              <li>
+                <img src="./assets/icones/eletrica.svg" alt="">
+                <p>Motor Elétrico</p>
+              </li>
+              <li>
+                <img src="./assets/icones/carbono.svg" alt="">
+                <p>Fibra de Carbono</p>
+              </li>
+              <li>
+                <img src="./assets/icones/carbono.svg" alt="">
+                <p>50 km/h</p>
+              </li>
+              <li>
+                <img src="./assets/icones/rastreador.svg" alt="">
+                <p>Rastreador</p>
+              </li>
+            </ul>
+            <img src="./assets/bicicleta/nimbus1.jpg" alt="" class="bike-budget-img">
           </div>
-          <div>
-            <label for="">Sobrenome</label>
-            <input type="text" name="" id=""/>
+
+          <input type="radio" name="bikes" id="nebula">
+          <label for="nebula" class="pop-16px-5">
+              <p>Nebula Cosmic</p>
+              <p>R$ 3999</p>
+          </label>
+
+          <div class="bikes-nebula budget-flex">
+            <ul class="pop-12px-6">
+              <li>
+                <img src="./assets/icones/eletrica.svg" alt="">
+                <p>Motor Elétrico</p>
+              </li>
+              <li>
+                <img src="./assets/icones/carbono.svg" alt="">
+                <p>Fibra de Carbono</p>
+              </li>
+              <li>
+                <img src="./assets/icones/velocidade.svg" alt="">
+                <p>50 km/h</p>
+              </li>
+              <li>
+                <img src="./assets/icones/rastreador.svg" alt="">
+                <p>Rastreador</p>
+              </li>
+            </ul>
+            <img src="./assets/bicicleta/nimbus3.jpg" alt="" class="bike-budget-img">
           </div>
-          <div>
-            <label for="">CPF</label>
-            <input type="number" name="" id="" placeholder="000.000.000-00"/>
+
+          <input type="radio" name="bikes" id="magic">
+          <label for="magic" class="pop-16px-5">
+            <p>Magic Might</p>
+            <p>R$ 2499</p>
+          </label>
+
+          <div class="bikes-magic budget-flex">
+            <ul class="pop-12px-6">
+              <li>
+                <img src="./assets/icones/eletrica.svg" alt="">
+                <p>Motor Elétrico</p>
+              </li>
+              <li>
+                <img src="./assets/icones/carbono.svg" alt="">
+                <p>Fibra de Carbono</p>
+              </li>
+              <li>
+                <img src="./assets/icones/velocidade.svg" alt="">
+                <p>40 km/h</p>
+              </li>
+              <li>
+                <img src="./assets/icones/rastreador.svg" alt="">
+                <p>Rastreador</p>
+              </li>
+            </ul>
+            <img src="./assets/bicicleta/nimbus2.jpg" alt="" class="bike-budget-img">
           </div>
-          <div>
-            <label for="">Email</label>
-            <input type="email" name="" id="" />
-          </div>
-          <p class="pop-12px-6">entrega</p>
-          <div>
-            <label for="">CEP</label>
-            <input type="number" name="" id="" />
-          </div>
-          <div>
-            <label for="">Número</label>
-            <input type="number" name="" id="" />
-          </div>
-          <div>
-            <label for="">Logradouro</label>
-            <input type="text" name="" id="" placeholder="Rua, avenida..."/>
-          </div>
-          <div>
-            <label for="">Bairro</label>
-            <input type="text" name="" id="" />
-          </div>
-          <div>
-            <label for="">Cidade</label>
-            <input type="text" name="" id="" />
-          </div>
-          <div>
-            <label for="">Estado</label>
-            <input type="text" name="" id="" placeholder="Selecione"/>
-          </div>
-        </form>
-      </section>
-        <div class="terms">
-          <input type="checkbox" name="" id="" class="checkbox"/>
-          <label for=""
-            class="pop-16px-5">Li e aceito os
-            <a href="./termos-e-condicoes.html">termos e condições.</a></label
-          >
         </div>
-        <input type="button" value="solicitar orcamento" class="b-yellow solicitar" />
-    </section>
+
+
+        <div class="budget-plans pop-16px-5">
+          <h2 class="pop-12px-6">escolha o plano:</h2>
+
+              <input type="radio" name="gold-plate" id="prata">
+              <label for="prata">
+                <p>Prata</p>
+                <p>R$ 199</p>
+              </label>
+            
+            
+          <input type="radio" name="gold-plate" id="ouro">
+          <label for="ouro">
+            <p>Ouro</p>
+            <p>R$ 299</p>
+          </label>
+          
+          
+        </div>
+
+      </div>
+
+      <div class="budget-form-list pop-16px-5">
+        <h2 class="pop-12px-6">dados pessoais</h2>
+        <div>
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <div>
+          <label for="cpf">CPF</label>
+          <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <h2 class="pop-12px-6">entrega</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" name="cep" id="cep">
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="number" name="numero" id="numero">
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" name="logradouro" id="logradouro" placeholder="Rua, Avenida...">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" name="cidade" id="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" name="estado" id="estado" placeholder="Selecione">
+        </div>
+        <button class="b-yellow send">Solicitar Orcamento</button>
+      </div>
+    </form>
   </div>
 </main>
 

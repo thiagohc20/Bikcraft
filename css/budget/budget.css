@@ -1,25 +1,40 @@
 .budget-bg {
-    background-color: white;
-    box-shadow: inset 0px 300px rgba(17, 17, 17, 1);
-}
-.budget{
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    padding-bottom:120px;
+    box-shadow: inset 0px 300px #111;
+    padding-bottom: 60px;
 }
 
-.budget-choose {
-    background-color: black;
+.budget-form {
     color: white;
 }
 
+.budget-form {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.budget-form h2 {
+    text-transform: uppercase;
+}
+
+.budget-form h2::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    margin-right: 8px;
+    background-color: #FFBB00;
+}
+
 @media (max-width:800px) {
-    .budget-bg {
-        padding: 0px;
+    .budget-choose {
+        border-radius: 5px 5px 0px 0px !important;
     }
-    
-    .budget {
+
+    .budget-form-list {
+        border-radius: 0px 0px 5px 5px !important;
+    }
+
+    .budget-form {
         grid-template-columns: 1fr;
-        padding-bottom: 30px;
     }
 }
