@@ -7,22 +7,41 @@
     padding-bottom: 88px;
 }
 
-.faq-list h2 {
+.faq-list dt {
     padding-bottom: 16px;
     color: rgba(17, 17, 17, 1);
 }
-.faq-list p{
+
+.faq-list dd{
     padding-left: 20px;
     max-width: 832px;
     color: rgba(64, 64, 64, 1);
 }
 
-.faq-list ul {
+.faq-list dd {
+    display: none;
+}
+
+.faq-list dd.ativa{
+    display: block;
+}
+
+.faq-list button{
+    color: black;
+    width: 100%;
+    border: none;
+    text-align: left;
+    background: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-list dl {
     display: grid;
     gap: 10px;
 }
 
-.faq-list ul li h2::before {
+.faq-list dl div button::before {
     content: "";
     position: relative;
     bottom: 2px;
@@ -31,6 +50,22 @@
     width: 12px;
     height: 8px;
     background-color: rgba(255, 187, 0, 1);
+}
+
+.faq-list dl div button::after {
+    content: "";
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
+    margin-left: 10%;
+    width: 20px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/icones/seta-abrir.svg);
+}
+
+.faq-list dl div button:hover:after {
+   transform: rotate(180deg);
 }
 
 @media (max-width:800px) {

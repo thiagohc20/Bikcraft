@@ -9,24 +9,18 @@
     <title>Seguros</title>
 </head>
 <body>
-    <header>
-        <section class="align-container">
-          <a href="./"
-            ><img
-              src="./assets/bikcraft.svg"
-              alt="bikcraft"
-              srcset=""
-              class="logo"
-          /></a>
-          <nav class="nav-buttons">
-            <ul class="pop-20px-5">
-              <li><a href="./bicicletas.html" target="_blank">Bicicletas</a></li>
-              <li><a href="./seguros.html">Seguros</a></li>
-              <li><a href="./contato.html">Contato</a></li>
-            </ul>
-          </nav>
-        </section>
-      </header>
+  <header>
+    <section class="align-container">
+      <a href="./"><img src="./assets/bikcraft.svg" alt="bikcraft" srcset="" class="logo" /></a> 
+      <nav class="nav-buttons">
+        <ul class="pop-20px-5">
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
       <section class="head">
         <div class="align-container">
@@ -65,7 +59,7 @@
                     <p class="rb-18px">Cobertura estadual</p>
                   </li>
                 </ul>
-                <button class="b-gray">inscreva-se</button>
+                <a class="b-gray" href="./orcamento.html?bik-seg=seguro&gold-plate=prata">Inscreva-se</a>
               </article>
             </section>
       
@@ -104,7 +98,7 @@
                     <p class="rb-18px">Acesso ao Clube Bikcraft</p>
                   </li>
                 </ul>
-                <button class="b-yellow">inscreva-se</button>
+                <a class="b-yellow" href="./orcamento.html?bik-seg=seguro&gold-plate=ouro">Inscreva-se</a>
               </article>
             </section>
           </section>
@@ -155,36 +149,36 @@
               <div class="faq align-container">
                 <h1 class="pop-64px">perguntas frequentes<span class="dot">.</span></h1>
                 <section class="faq-list">
-                  <ul>
-                      <li>
-                          <h2 class="pop-18px-6">Qual forma de pagamento vocês aceitam?</h2>
-                          <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                      </li>
-                      <li>
-                        <h2 class="pop-18px-6">Como posso entrar em contato?</h2>
-                        <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                    <li>
-                        <h2 class="pop-18px-6">Vocês possuem algum desconto?</h2>
-                        <p style="display: none;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                    <li>
-                        <h2 class="pop-18px-6">Qual a garantia que possuo?</h2>
-                        <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                    <li>
-                        <h2 class="pop-18px-6">Posso parcelar no boleto?</h2>
-                        <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                    <li>
-                        <h2 class="pop-18px-6">Quantas trocas posso fazer ao ano?</h2>
-                        <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                    <li>
-                        <h2 class="pop-18px-6">Qual Bikcraft devo escolher para o meu tamanho?</h2>
-                        <p style="display: non;" class="rb-18px">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-                    </li>
-                  </ul>
+                  <dl>
+                    <div>
+                      <dt><button class="pop-18px-6" aria-controls="pergunta1" aria-expanded="true">Qual forma de pagamento vocês aceitam?</button></dt>
+                      <dd class="rb-18px ativa" id="pergunta1">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                      <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta2" aria-expanded="false">Como posso entrar em contato?</button></dt>
+                      <dd class="rb-18px" id="pergunta2">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                        <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta3" aria-expanded="false">Vocês possuem algum desconto?</button></dt>
+                        <dd class="rb-18px" id="pergunta3">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                        <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta4" aria-expanded="false">Qual a garantia que possuo?</button></dt>
+                        <dd class="rb-18px" id="pergunta4">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                        <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta5" aria-expanded="false">Posso parcelar no boleto?</button></dt>
+                        <dd class="rb-18px" id="pergunta5">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                        <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta6" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
+                        <dd class="rb-18px" id="pergunta6">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                    <div>
+                        <dt class="pop-18px-6"><button class="pop-18px-6" aria-controls="pergunta7" aria-expanded="false">Qual Bikcraft devo escolher para o meu tamanho?</button></dt>
+                        <dd class="rb-18px" id="pergunta7">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    </div>
+                  </dl>
                 </section>
               </div>
           </section>
@@ -231,5 +225,8 @@
           <p class="direitos rb-18px">Bikcraft © Alguns direitos reservados.</p>
         </section>
       </footer>
-</body>
+
+      <script src="./js/plugins/simple-anime/simple-anime.js"></script>
+      <script src="./js/script.js"></script>
+  </body>
 </html>

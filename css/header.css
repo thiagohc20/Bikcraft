@@ -1,3 +1,10 @@
+.ativo::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: white;
+}
+
 header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -29,7 +36,7 @@ header nav ul {
     border-radius: 5px;
 }
 
-.nav-buttons ul li:after{
+.nav-buttons li a:after{
     content: "";
     display: block;
     width: 0%;
@@ -38,7 +45,8 @@ header nav ul {
     transition: 0.3s;
 }
 
-.nav-buttons ul li:hover:after {
+.nav-buttons li a:hover:after,
+li a.ativo::after {
     width: 100%;
 }
 

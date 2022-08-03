@@ -130,12 +130,6 @@
     gap: 20px;
 }
 
-.seguro:checked ~ .budget-plans {
-    display: flex;
-    background-color: white;
-    color: #000;
-}
-
 .budget-plans label {
     display: flex;
     justify-content: space-between;

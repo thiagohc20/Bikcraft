@@ -8,250 +8,285 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Orçamento</title>
   </head>
-  <body></body>
-</html>
-<header>
-  <section class="align-container">
-    <a href="./"
-      ><img src="./assets/bikcraft.svg" alt="bikcraft" srcset="" class="logo"
-    /></a>
-    <nav class="nav-buttons">
-      <ul class="pop-20px-5">
-        <li><a href="./bicicletas.html">Bicicletas</a></li>
-        <li><a href="./seguros.html" target="_blank">Seguros</a></li>
-        <li><a href="./contato.html">Contato</a></li>
-      </ul>
-    </nav>
+  <header>
+    <section class="align-container">
+      <a href="./"
+        ><img src="./assets/bikcraft.svg" alt="bikcraft" srcset="" class="logo"
+      /></a>
+      <nav class="nav-buttons">
+        <ul class="pop-20px-5">
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <section class="head">
+    <div class="align-container">
+      <span class="rb-24px-5">cotações no seu email</span>
+      <h1 class="pop-64px">solicite um orçamento<span class="dot">.</span></h1>
+    </div>
   </section>
-</header>
 
-<section class="head">
-  <div class="align-container">
-    <span class="rb-24px-5">cotações no seu email</span>
-    <h1 class="pop-64px">solicite um orçamento<span class="dot">.</span></h1>
-  </div>
-</section>
+  <main class="budget-bg">
+    <div class="budget align-container">
+      <form action="" class="budget-form">
+        <div class="budget-choose">
+          <h2 class="pop-12px-6">bikcraft ou seguro?</h2>
 
-<main class="budget-bg">
-  <div class="budget align-container">
-    <form action="" class="budget-form">
-      <div class="budget-choose">
-        <h2 class="pop-12px-6">bikcraft ou seguro?</h2>
-
-          <input type="radio" name="bik-seg" id="bikcraft">
+          <input type="radio" name="bik-seg" value="bikcraft" id="bikcraft" />
           <label for="bikcraft" class="pop-16px-5">Bikcraft</label>
-        
-          <input type="radio" name="bik-seg" id="seguro">
+
+          <input type="radio" name="bik-seg" value="seguro" id="seguro" />
           <label for="seguro" class="pop-16px-5">Seguro</label>
-          
-        <div class="budget-bikes">
-          <h2 class="pop-12px-6">escolha a sua:</h2>
 
-          <input type="radio" name="bikes" id="nimbus">
-          <label for="nimbus" class="pop-16px-5">
-            <p>Nimbus Stark</p>
-            <p>R$ 4999</p>
-          </label>
+          <div class="budget-bikes">
+            <h2 class="pop-12px-6">escolha a sua:</h2>
 
-          <div class="bikes-nimbus budget-flex">
-            <ul class="pop-12px-6">
-              <li>
-                <img src="./assets/icones/eletrica.svg" alt="">
-                <p>Motor Elétrico</p>
-              </li>
-              <li>
-                <img src="./assets/icones/carbono.svg" alt="">
-                <p>Fibra de Carbono</p>
-              </li>
-              <li>
-                <img src="./assets/icones/carbono.svg" alt="">
-                <p>50 km/h</p>
-              </li>
-              <li>
-                <img src="./assets/icones/rastreador.svg" alt="">
-                <p>Rastreador</p>
-              </li>
-            </ul>
-            <img src="./assets/bicicleta/nimbus1.jpg" alt="" class="bike-budget-img">
-          </div>
+            <input type="radio" name="bikes" id="nimbus" />
+            <label for="nimbus" class="pop-16px-5">
+              <p>Nimbus Stark</p>
+              <p>R$ 4999</p>
+            </label>
 
-          <input type="radio" name="bikes" id="nebula">
-          <label for="nebula" class="pop-16px-5">
+            <div class="bikes-nimbus budget-flex">
+              <ul class="pop-12px-6">
+                <li>
+                  <img src="./assets/icones/eletrica.svg" alt="" />
+                  <p>Motor Elétrico</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/carbono.svg" alt="" />
+                  <p>Fibra de Carbono</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/carbono.svg" alt="" />
+                  <p>50 km/h</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/rastreador.svg" alt="" />
+                  <p>Rastreador</p>
+                </li>
+              </ul>
+              <img
+                src="./assets/bicicleta/nimbus1.jpg"
+                alt=""
+                class="bike-budget-img"
+              />
+            </div>
+
+            <input type="radio" name="bikes" id="nebula" />
+            <label for="nebula" class="pop-16px-5">
               <p>Nebula Cosmic</p>
               <p>R$ 3999</p>
-          </label>
+            </label>
 
-          <div class="bikes-nebula budget-flex">
-            <ul class="pop-12px-6">
-              <li>
-                <img src="./assets/icones/eletrica.svg" alt="">
-                <p>Motor Elétrico</p>
-              </li>
-              <li>
-                <img src="./assets/icones/carbono.svg" alt="">
-                <p>Fibra de Carbono</p>
-              </li>
-              <li>
-                <img src="./assets/icones/velocidade.svg" alt="">
-                <p>50 km/h</p>
-              </li>
-              <li>
-                <img src="./assets/icones/rastreador.svg" alt="">
-                <p>Rastreador</p>
-              </li>
-            </ul>
-            <img src="./assets/bicicleta/nimbus3.jpg" alt="" class="bike-budget-img">
+            <div class="bikes-nebula budget-flex">
+              <ul class="pop-12px-6">
+                <li>
+                  <img src="./assets/icones/eletrica.svg" alt="" />
+                  <p>Motor Elétrico</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/carbono.svg" alt="" />
+                  <p>Fibra de Carbono</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/velocidade.svg" alt="" />
+                  <p>50 km/h</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/rastreador.svg" alt="" />
+                  <p>Rastreador</p>
+                </li>
+              </ul>
+              <img
+                src="./assets/bicicleta/nimbus3.jpg"
+                alt=""
+                class="bike-budget-img"
+              />
+            </div>
+
+            <input type="radio" name="bikes" id="magic" />
+            <label for="magic" class="pop-16px-5">
+              <p>Magic Might</p>
+              <p>R$ 2499</p>
+            </label>
+
+            <div class="bikes-magic budget-flex">
+              <ul class="pop-12px-6">
+                <li>
+                  <img src="./assets/icones/eletrica.svg" alt="" />
+                  <p>Motor Elétrico</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/carbono.svg" alt="" />
+                  <p>Fibra de Carbono</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/velocidade.svg" alt="" />
+                  <p>40 km/h</p>
+                </li>
+                <li>
+                  <img src="./assets/icones/rastreador.svg" alt="" />
+                  <p>Rastreador</p>
+                </li>
+              </ul>
+              <img
+                src="./assets/bicicleta/nimbus2.jpg"
+                alt=""
+                class="bike-budget-img"
+              />
+            </div>
           </div>
 
-          <input type="radio" name="bikes" id="magic">
-          <label for="magic" class="pop-16px-5">
-            <p>Magic Might</p>
-            <p>R$ 2499</p>
-          </label>
+          <div class="budget-plans pop-16px-5">
+            <h2 class="pop-12px-6">escolha o plano:</h2>
 
-          <div class="bikes-magic budget-flex">
-            <ul class="pop-12px-6">
-              <li>
-                <img src="./assets/icones/eletrica.svg" alt="">
-                <p>Motor Elétrico</p>
-              </li>
-              <li>
-                <img src="./assets/icones/carbono.svg" alt="">
-                <p>Fibra de Carbono</p>
-              </li>
-              <li>
-                <img src="./assets/icones/velocidade.svg" alt="">
-                <p>40 km/h</p>
-              </li>
-              <li>
-                <img src="./assets/icones/rastreador.svg" alt="">
-                <p>Rastreador</p>
-              </li>
-            </ul>
-            <img src="./assets/bicicleta/nimbus2.jpg" alt="" class="bike-budget-img">
+            <input type="radio" name="gold-plate" value="prata" id="prata" />
+            <label for="prata">
+              <p>Prata</p>
+              <p>R$ 199</p>
+            </label>
+
+            <input type="radio" name="gold-plate" value="ouro" id="ouro" />
+            <label for="ouro">
+              <p>Ouro</p>
+              <p>R$ 299</p>
+            </label>
           </div>
         </div>
 
+        <div class="budget-form-list pop-16px-5">
+          <h2 class="pop-12px-6">dados pessoais</h2>
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" />
+          </div>
+          <div>
+            <label for="cpf">CPF</label>
+            <input
+              type="text"
+              name="cpf"
+              id="cpf"
+              placeholder="000.000.000-00"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <h2 class="pop-12px-6">entrega</h2>
+          <div>
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep" />
+          </div>
+          <div>
+            <label for="numero">Número</label>
+            <input type="number" name="numero" id="numero" />
+          </div>
+          <div>
+            <label for="logradouro">Logradouro</label>
+            <input
+              type="text"
+              name="logradouro"
+              id="logradouro"
+              placeholder="Rua, Avenida..."
+            />
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" id="bairro" />
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" />
+          </div>
+          <div>
+            <label for="estado">Estado</label>
+            <input
+              type="text"
+              name="estado"
+              id="estado"
+              placeholder="Selecione"
+            />
+          </div>
+          <button class="b-yellow send">Solicitar Orcamento</button>
+        </div>
+      </form>
+    </div>
+  </main>
 
-        <div class="budget-plans pop-16px-5">
-          <h2 class="pop-12px-6">escolha o plano:</h2>
+  <footer>
+    <section class="footer-infos align-container">
+      <section class="contact">
+        <img
+          src="./assets/bikcraft.svg"
+          alt="bikcraft"
+          srcset=""
+          class="logo"
+        />
+        <article>
+          <div class="contact-list">
+            <h2 class="rb-24px">CONTATO</h2>
 
-              <input type="radio" name="gold-plate" id="prata">
-              <label for="prata">
-                <p>Prata</p>
-                <p>R$ 199</p>
-              </label>
-            
-            
-          <input type="radio" name="gold-plate" id="ouro">
-          <label for="ouro">
-            <p>Ouro</p>
-            <p>R$ 299</p>
-          </label>
-          
-          
-        </div>
+            <ul>
+              <li class="rb-18px"><a href="./">+55 21 9999-9999</a></li>
+              <li class="rb-18px"><a href="./">contato@bikcraft.com</a></li>
+            </ul>
 
-      </div>
-
-      <div class="budget-form-list pop-16px-5">
-        <h2 class="pop-12px-6">dados pessoais</h2>
-        <div>
-          <label for="name">Nome</label>
-          <input type="text" name="name" id="name">
-        </div>
-        <div>
-          <label for="sobrenome">Sobrenome</label>
-          <input type="text" name="sobrenome" id="sobrenome">
-        </div>
-        <div>
-          <label for="cpf">CPF</label>
-          <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email">
-        </div>
-        <h2 class="pop-12px-6">entrega</h2>
-        <div>
-          <label for="cep">CEP</label>
-          <input type="text" name="cep" id="cep">
-        </div>
-        <div>
-          <label for="numero">Número</label>
-          <input type="number" name="numero" id="numero">
-        </div>
-        <div>
-          <label for="logradouro">Logradouro</label>
-          <input type="text" name="logradouro" id="logradouro" placeholder="Rua, Avenida...">
-        </div>
-        <div>
-          <label for="bairro">Bairro</label>
-          <input type="text" name="bairro" id="bairro">
-        </div>
-        <div>
-          <label for="cidade">Cidade</label>
-          <input type="text" name="cidade" id="cidade">
-        </div>
-        <div>
-          <label for="estado">Estado</label>
-          <input type="text" name="estado" id="estado" placeholder="Selecione">
-        </div>
-        <button class="b-yellow send">Solicitar Orcamento</button>
-      </div>
-    </form>
-  </div>
-</main>
-
-<footer>
-  <section class="footer-infos align-container">
-    <section class="contact">
-      <img src="./assets/bikcraft.svg" alt="bikcraft" srcset="" class="logo" />
-      <article>
-        <div class="contact-list">
-          <h2 class="rb-24px">CONTATO</h2>
-
-          <ul>
-            <li class="rb-18px"><a href="./">+55 21 9999-9999</a></li>
-            <li class="rb-18px"><a href="./">contato@bikcraft.com</a></li>
-          </ul>
-
-          <ul>
-            <li class="rb-18px">
-              <a href="./">Rua Ali Perto, 42 - Botafogo</a>
+            <ul>
+              <li class="rb-18px">
+                <a href="./">Rua Ali Perto, 42 - Botafogo</a>
+              </li>
+              <li class="rb-18px"><a href="./">Rio de Janeiro - RJ</a></li>
+            </ul>
+          </div>
+          <ul class="social-midias">
+            <li>
+              <img
+                src="./assets/redes/instagram.svg"
+                alt="instagram"
+                srcset=""
+              />
             </li>
-            <li class="rb-18px"><a href="./">Rio de Janeiro - RJ</a></li>
+            <li>
+              <img src="./assets/redes/facebook.svg" alt="facebook" srcset="" />
+            </li>
+            <li>
+              <img src="./assets/redes/youtube.svg" alt="youtube" srcset="" />
+            </li>
           </ul>
-        </div>
-        <ul class="social-midias">
+        </article>
+      </section>
+
+      <section class="info-list">
+        <h2 class="rb-24px">INFORMAÇÕES</h2>
+        <ul>
+          <li><a href="./bicicletas.html" class="pop-18px">Bicicletas</a></li>
           <li>
-            <img src="./assets/redes/instagram.svg" alt="instagram" srcset="" />
+            <a href="./seguros.html" class="pop-18px" target="_blank"
+              >Seguros</a
+            >
           </li>
+          <li><a href="./contato.html" class="pop-18px">Contato</a></li>
           <li>
-            <img src="./assets/redes/facebook.svg" alt="facebook" srcset="" />
-          </li>
-          <li>
-            <img src="./assets/redes/youtube.svg" alt="youtube" srcset="" />
+            <a href="./termos-e-condicoes.html" class="pop-18px"
+              >Termos e Condições</a
+            >
           </li>
         </ul>
-      </article>
+      </section>
+      <p class="direitos rb-18px">Bikcraft © Alguns direitos reservados.</p>
     </section>
-
-    <section class="info-list">
-      <h2 class="rb-24px">INFORMAÇÕES</h2>
-      <ul>
-        <li><a href="./bicicletas.html" class="pop-18px">Bicicletas</a></li>
-        <li>
-          <a href="./seguros.html" class="pop-18px" target="_blank">Seguros</a>
-        </li>
-        <li><a href="./contato.html" class="pop-18px">Contato</a></li>
-        <li>
-          <a href="./termos-e-condicoes.html" class="pop-18px"
-            >Termos e Condições</a
-          >
-        </li>
-      </ul>
-    </section>
-    <p class="direitos rb-18px">Bikcraft © Alguns direitos reservados.</p>
-  </section>
-</footer>
+  </footer>
+  <body>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

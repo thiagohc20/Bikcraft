@@ -1,9 +1,9 @@
 .feed-back {
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 0px auto;
   background-color: rgba(255, 187, 0, 1);
-  place-items: center flex-end;
+  place-items: center;
 }
 
 .feed-back img {
